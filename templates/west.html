@@ -1,0 +1,49 @@
+<html>
+    <style>
+        h1 {text-align: center;}
+        h3 {text-align: center;}
+        td {border:1px solid #333; text-align: center;}
+        th {border:1px solid #333; text-align: center;}
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right:auto;
+        }
+    </style>
+
+<h1> You've connected to Coretek's Azure FrontDoor Demo in the <em>"West US"</em> region!</h1>
+<h3> You must want weather data from Microsoft HQ!</h3>
+<img src="https://cdn2.cloudpro.co.uk/sites/cloudprod7/files/styles/thumbnail_large_620x350/public/2019/04/microsofthqshutterstock_1354442264.jpg?itok=ZWFp-Xpz" alt="Microsoft HQ" width="800" height="345" class="center">
+
+<table style="width:100%">
+    <!-- Represents the days-->
+    <tr>
+        <th>{{day1name}}</th>
+        <th>{{day2name}}</th>
+        <th>{{day3name}}</th>
+        <th>{{day4name}}</th>
+        <th>{{day5name}}</th>
+    </tr>
+    <!-- Represents the Temperature-->
+    <tr>
+        <td>{{day1temp}}</td>
+        <td>{{day2temp}}</td>
+        <td>{{day3temp}}</td>
+        <td>{{day4temp}}</td>
+        <td>{{day5temp}}</td>
+    </tr>
+    <!-- Represents the shortForcast -->
+    <tr>
+        <td>{{day1cast}}</td>
+        <td>{{day2cast}}</td>
+        <td>{{day3cast}}</td>
+        <td>{{day4cast}}</td>
+        <td>{{day5cast}}</td>
+    </tr>
+</table>
+
+<img src="https://img.jakpost.net/c/2018/11/06/2018_11_06_58019_1541492672._large.jpg" alt="Bill Gates" width="400" height="300" class="center">
+
+<h3>As you can see, even though the server in East US is down Front Door routes traffic to the available server.</h3>
+
+</html>
